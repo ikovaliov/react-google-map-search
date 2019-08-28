@@ -1,0 +1,18 @@
+.mapSearchBox {
+    margin-top: 25px;
+}
+
+.circleStatus span {
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+    display: block;
+}
+
+.circleStatus .circleTrue {
+    background-color: green;
+}
+
+.circleStatus .circleFalse {
+    background-color: red;
+}
