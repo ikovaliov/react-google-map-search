@@ -14,10 +14,12 @@ const {
 
 const mainCoordinates = { lat: 51.5073835, lng: -0.1277801 };
 
+//! ADD YOUR GOOGLE MAP URL WITH KEY
+const googleMapUrl = '';
+
 const MapComponent = compose(
   withProps({
-    googleMapURL:
-      'https://maps.googleapis.com/maps/api/js?key=AIzaSyCpT7R5UjNbySl47bo382sJo7ZiJHZhyK0&libraries=geometry,drawing,places',
+    googleMapURL: googleMapUrl,
     loadingElement: <div style={{ height: `100%` }} />,
     containerElement: <div style={{ height: `400px` }} />,
     mapElement: <div style={{ height: `100%` }} />
@@ -105,7 +107,7 @@ const MapComponent = compose(
                   <td>
                     {address ? 'We can service!' : 'We can not service! Sorry.'}
                   </td>
-                  <td className="circleStatus">
+                  <td className='circleStatus'>
                     <span
                       className={address ? 'circleTrue' : 'circleFalse'}
                     ></span>

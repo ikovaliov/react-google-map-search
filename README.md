@@ -1,5 +1,7 @@
 # Created by Igor Kovaliov
 
+### Before start you have to create and add google map url with key in MapComponent.js file const googleMapUrl.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
